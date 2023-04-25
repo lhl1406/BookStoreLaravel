@@ -1,0 +1,5 @@
+@include('frontend.blocks.header')
+@yield('header')
+@yield('login')
+@yield('content')
+@include('frontend.blocks.footer')
